@@ -1031,3 +1031,33 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:21:42 +0100)
 
 > Je profite de l'attente pour écrire les tests de la vue côté site, avec Vitest comme le reste de ZenRayProgress : le placement 3D et le calcul de la plage de dates. (9 November 2026, 14:21:42 +0100)
+
+## 9 November 2026, 14:22:45 +0100 : Iteration
+
+<!-- feedback-event:32ae65908326d3478ea330c4f678f910819edc1f49bccfc0cd0dee7dc6dd9e95 (9 November 2026, 14:22:45 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:22:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:22:45 +0100)
+
+> La réingestion avance : les séances de revue automatique sont oubliées (17), et les notes du jour se téléchargent. J'attends la fin pour lancer le banc. (9 November 2026, 14:22:45 +0100)
+
+## 9 November 2026, 14:22:58 +0100 : Iteration
+
+<!-- feedback-event:6d6973702f5bc3a200b99d13a2d53a8674ca2d0f41726caff98fcc023c695314 (9 November 2026, 14:22:58 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:22:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:22:58 +0100)
+
+> La réingestion se termine en arrière-plan. Les revues automatiques de Codex sont retirées (17 séances oubliées), et le nettoyage des fichiers supprimés ne dépend plus de la table des origines ; un test le vérifie. Les notes du jour sont en cours de téléchargement. Les tests de la vue côté site passent (3 sur 3), et le site compile en 8 secondes. Je reprends dès la fin du calcul, avec le banc de 13 questions puis le banc tenu à l'écart. (9 November 2026, 14:22:58 +0100)
+
+## 9 November 2026, 14:24:15 +0100 : Prompt
+
+<!-- feedback-event:82f9526aafae67e13abb73d06ae0c39e536342244bb4bc2ae98a7c6a43fc30a3 (9 November 2026, 14:24:15 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 14:24:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:24:15 +0100)
+
+> <task-notification> (9 November 2026, 14:24:15 +0100)
+> <task-id>bdvn2lgm5</task-id> (9 November 2026, 14:24:15 +0100)
+> <tool-use-id>toolu_018QmdgC8ekrLLHFHpxrjMQf</tool-use-id> (9 November 2026, 14:24:15 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf/tasks/bdvn2lgm5.output</output-file> (9 November 2026, 14:24:15 +0100)
+> <status>completed</status> (9 November 2026, 14:24:15 +0100)
+> <summary>Background command "Refresh every source, extract and embed new memories" completed (exit code 0)</summary> (9 November 2026, 14:24:15 +0100)
+> </task-notification> (9 November 2026, 14:24:15 +0100)
