@@ -472,3 +472,127 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:04:02 +0100)
 
 > Les tests virent bien au rouge quand on casse le budget ou la règle des révisions. J'ingère maintenant le vrai PROGRESS.md. (9 November 2026, 13:04:02 +0100)
+
+## 9 November 2026, 13:05:45 +0100 : Iteration
+
+<!-- feedback-event:0d094e6372d43da0b0edd14664888596942664ac61a56b66b9be7920d813022b (9 November 2026, 13:05:45 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 13:05:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:05:45 +0100)
+
+> ZenRay Past est lancé : 4 des 20 étapes du plan sont faites et prouvées. Le plan, la spécification et ta demande intégrale sont écrits pour que rien ne se perde d'une session à l'autre. (9 November 2026, 13:05:45 +0100)
+>
+> **Les points d'appui** sont dans [/Users/zenray/.claude/tmp/tmp-zenray-past](/Users/zenray/.claude/tmp/tmp-zenray-past) : (9 November 2026, 13:05:45 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-past/PLAN.md](/Users/zenray/.claude/tmp/tmp-zenray-past/PLAN.md) : les 20 étapes dans l'ordre des dépendances, chacune avec la preuve exigée et son état. (9 November 2026, 13:05:45 +0100)
+> - [/Users/zenray/.claude/tmp/tmp-zenray-past/SPEC.md](/Users/zenray/.claude/tmp/tmp-zenray-past/SPEC.md) : notre version de past.dev, avec les données brutes datées, la résolution d'état (valeur actuelle et versions dépassées, chacune avec sa source), le rappel sous budget et le retour dans le passé (« ce qu'on savait à telle date »). (9 November 2026, 13:05:45 +0100)
+> - La documentation complète de past.dev est conservée dans `reference/`, et ta demande mot pour mot dans le FEEDBACK du projet Assets `zenray-past`. (9 November 2026, 13:05:45 +0100)
+>
+> **Le moteur** est un nouveau dépôt local, [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPast](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPast). Il utilise SQLite intégré à Node et ne coûte rien en API. Les 3 827 entrées de ton journal y sont ingérées, chacune avec sa vraie date et son agent : 974 entrées de Claude, 749 de Codex, 538 d'Antigravity, et 1 566 d'un historique non attribué. Une seconde ingestion ne change rien. Un rappel renvoie des documents entiers sous un budget strict, par exemple 2 758 tokens sur 3 000 pour la question du consulat. (9 November 2026, 13:05:45 +0100)
+>
+> L'ordre des étapes est l'ordre des dépendances. Les données passent d'abord : Memory1, les commits, puis les conversations Claude et Codex. Viennent ensuite la résolution d'état et les vecteurs, puis le serveur MCP et la reprise de session, et enfin l'onglet Past en Adobe Clean avec la chronologie 3D. Pour celle-ci, je reprends la composition de ta capture (la boîte en perspective, les cartes flottantes, l'axe du temps au sol, le repère « maintenant » et le flux des derniers ingérés) en la construisant avec tes données et tes polices. La bascule de CLAUDE.md, des skills `zenray-*` et de PROGRESS.md en « deprecated » est verrouillée jusqu'à ce que ZenRay Past fasse au moins aussi bien que Claude Code seul sur le banc, soit 12 sur 13 questions en 8 000 tokens au plus. Faire de ZenRay Past la source de vérité avant cette preuve serait précisément l'erreur que tu m'as demandé d'éviter. (9 November 2026, 13:05:45 +0100)
+>
+> Une autre décision t'attend, pour l'étape 09 : m'autorises-tu à télécharger le modèle d'embeddings `Xenova/multilingual-e5-small` depuis Hugging Face ? Il pèse 118,3 Mo (version quantifiée) plus 17,1 Mo pour le tokenizer, et il comprend le français, l'anglais et le japonais. Je le comparerais à NLEmbedding d'Apple, déjà présent sur ton Mac, qui ne demande aucun téléchargement. (9 November 2026, 13:05:45 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 13:05:45 +0100)
+> |---|---|---| (9 November 2026, 13:05:45 +0100)
+> | Lire toute la doc de past.dev et la reproduire | Commencé | Doc complète enregistrée, spécification écrite, moteur en place | (9 November 2026, 13:05:45 +0100)
+> | Données brutes horodatées | Commencé | 3 827 entrées du journal ingérées et datées ; Memory1, commits et conversations restent à faire | (9 November 2026, 13:05:45 +0100)
+> | Base vectorielle et graphe temporel | Pas encore | Tables prêtes, en attente de ton accord sur le modèle | (9 November 2026, 13:05:45 +0100)
+> | Onglet Past en Adobe Clean et chronologie 3D | Pas encore | Étapes 15 et 16 du plan | (9 November 2026, 13:05:45 +0100)
+> | Mettre à jour CLAUDE.md et les skills, puis tout synchroniser | Volontairement bloqué | Attend que le banc prouve que ZenRay Past fait au moins aussi bien | (9 November 2026, 13:05:45 +0100)
+> | Diviser les tâches, fichiers .md d'appui | Oui | PLAN.md, 20 étapes, chacune avec sa preuve | (9 November 2026, 13:05:45 +0100)
+> | Tâche récurrente pour ne jamais oublier | Non | Création refusée par le contrôle des permissions, texte prêt dans TASK-PROMPT.md | (9 November 2026, 13:05:45 +0100)
+
+## 9 November 2026, 13:10:15 +0100 : Prompt
+
+<!-- feedback-event:bb320be1db017937207c218629b82a4677513788e55a6c4f5a0084362bdd095c (9 November 2026, 13:10:15 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 13:10:15 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:10:15 +0100)
+
+> Ah oui, j'ai oublié aussi de te dire de lier à assets. Il doit être lié à assets, mais j'ai vu que tu l'avais déjà fait. Mais dans la documentation, il faudra aussi pas oublier que ZenRay Past permet du coup de résoudre le problème. Mais donc, je vais regarder ce que tu proposes Je viens de lire et je pense que ton plan est le bon. J'aimerais cependant que tu penses à tout avant de te lancer et ensuite tu codes tout jusqu'à la fin de manière séquentielle et tu as carte blanche pour créer la meilleure version possible du produit mais sans jamais faire aucune erreur à chaque étape. Chaque étape doit être minutieusement faite et parfaite jusqu'à sa finition avant de passer à la prochaine étape. Je te laisse travailler. Tu peux avoir autant de temps que tu veux, prends tout le temps possible et disponible. (9 November 2026, 13:10:15 +0100)
+
+## 9 November 2026, 13:11:09 +0100 : Prompt
+
+<!-- feedback-event:cfbdb9bf850d8e441ea66d4a6f496829fb7fd313eef5b38a42a85a536512fd30 (9 November 2026, 13:11:09 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 13:11:09 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:11:09 +0100)
+
+> Base directory for this skill: /Users/zenray/.claude/skills/think-of-everything (9 November 2026, 13:11:09 +0100)
+>
+> # Think of Everything (Pense à Tout) (9 November 2026, 13:11:09 +0100)
+>
+> Surface the FEW risks that matter on ANY decision — code, business, life, art — each proven against the real facts, each with a concrete check, ending in a decision. 40 generic checklist items is a failure; 5 proven, ranked risks is a success. This pass answers the question asked, its opposite, and the ones nobody asked, then verifies against reality instead of memory. (9 November 2026, 13:11:09 +0100)
+>
+> **Specialist rule (anti-generic), applies to every output line:** write at the level of the expert who gets paid to review exactly this — immigration lawyer, senior rigger, tax advisor, DB architect. Every kept risk must contain at least one exact value from the real context (number, date, name, path, price, spec) verified this session. A risk that could be pasted unchanged into someone else's situation is generic: sharpen it or cut it. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 0: Classify and scale (two lines) (9 November 2026, 13:11:09 +0100)
+>
+> - Domain + the specialist to embody + type: (a) action to take, (b) existing thing to audit, (c) pure decision, nothing built yet. (9 November 2026, 13:11:09 +0100)
+> - For (b), the source of truth is the actual artifact (`git diff`, the contract, the scene file), never its description. (9 November 2026, 13:11:09 +0100)
+> - Trivial, cheap and reversible case: say so, jump to Step 4 + verdict, 5 output lines max. The full pass is for anything expensive, irreversible, deadline-bound, or touching shared state, money, auth, public APIs. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 1: Read the request four ways (one line each) (9 November 2026, 13:11:09 +0100)
+>
+> 1. **Literal**: restate exactly what was asked. (9 November 2026, 13:11:09 +0100)
+> 2. **Inverse**: what if the premise is false? What single condition breaks this? And what does NOT doing it cost? (9 November 2026, 13:11:09 +0100)
+> 3. **Adjacent**: the 2-3 questions the specialist would ask next, unprompted. Parallel questions, not follow-ups. (9 November 2026, 13:11:09 +0100)
+> 4. **Reframed**: the clearest version of this request. If it differs from the literal one, answer that too. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 2: Verify the real facts (never from memory) (9 November 2026, 13:11:09 +0100)
+>
+> **Evidence rule, the core of this skill: every claim cites its proof — file:line, URL of an official source, a measured value, or a posed calculation — found THIS SESSION, or carries the label [non vérifié]. No exceptions.** (9 November 2026, 13:11:09 +0100)
+>
+> Sources by domain: (9 November 2026, 13:11:09 +0100)
+>
+> - **Code**: `rg -n "<symbol|route|table|key>"` across the whole repo — every call site, not just the edited file. Hyrum's law: who depends on the CURRENT undocumented behavior (output format, ordering, timing, error text)? Does the new code re-read data written by the old code? (9 November 2026, 13:11:09 +0100)
+> - **Business / life / admin**: read the actual documents (contracts, statements, notes, Memory files); web-search official sources for external facts (rules, prices, deadlines, opening days); compute the real numbers and dates — count, never estimate. (9 November 2026, 13:11:09 +0100)
+> - **Physical / creative (3D, drawing, video, print)**: open the actual source files (scene, layers, footage); check the official specs (software docs, platform limits, physical medium constraints); measure, don't eyeball. (9 November 2026, 13:11:09 +0100)
+> - **People**: who else is affected, who must agree, whose workflow breaks if this changes? (9 November 2026, 13:11:09 +0100)
+>
+> If the facts can't be reached, label the whole map "non vérifié / spéculatif". Never present a guess as a finding. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 3: Impact surface (12 universal axes, one killer question each) (9 November 2026, 13:11:09 +0100)
+>
+> 1. **Existing state**: does what already exists (data, commitments, acquired rights) stay valid? Partial overwrite possible? (9 November 2026, 13:11:09 +0100)
+> 2. **Conflicts / concurrency**: two actors or processes on the same resource at once — then what? (9 November 2026, 13:11:09 +0100)
+> 3. **Limits & deadlines**: which cap (budget, size, rate, date, capacity) gets hit first, and what happens at the boundary? (9 November 2026, 13:11:09 +0100)
+> 4. **Security / legal**: who can trigger or abuse this? Compliant with law, terms, licenses? (9 November 2026, 13:11:09 +0100)
+> 5. **Partial failure**: stopped halfway — what state remains, is it recoverable? (9 November 2026, 13:11:09 +0100)
+> 6. **Backward compatibility**: old data, clients, habits, commitments still work? (9 November 2026, 13:11:09 +0100)
+> 7. **Scale & durability**: still fine at 100x the volume, or repeated weekly for a year? (9 November 2026, 13:11:09 +0100)
+> 8. **Recurring cost**: money, time, energy that scales with usage? (9 November 2026, 13:11:09 +0100)
+> 9. **Observability**: if it fails silently, how and when do you find out? (9 November 2026, 13:11:09 +0100)
+> 10. **Edge cases**: empty/first-run, oversized, duplicate, offline; holiday, sick day, exception case. (9 November 2026, 13:11:09 +0100)
+> 11. **Checks**: a test or verification that catches the regression BEFORE real impact? (9 November 2026, 13:11:09 +0100)
+> 12. **Reversibility**: one action to undo? Does what got engaged meanwhile (money sent, word given, data written) survive? (9 November 2026, 13:11:09 +0100)
+>
+> Keep only the applicable axes, expressed in the domain's own units and vocabulary. Dismiss the rest in one line ("N/A: ..."), never pad. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 4: Premortem (narrative, not checklist) (9 November 2026, 13:11:09 +0100)
+>
+> "Three weeks later it failed, and it was THIS decision. Write the most plausible incident, then the second." Use THIS domain's high-frequency classics — code: off-by-one, empty/first-run state, stale cache, non-idempotent retry, timezone/encoding, two concurrent writers; admin/life: missed deadline, missing document, misread eligibility rule, transfer delay, closed office; business: nobody pays, no distribution channel; 3D/art/print: wrong units or scale, topology breaks at rig, export color shift, asset license. (9 November 2026, 13:11:09 +0100)
+>
+> ## Step 5: Rank, cut, decide (9 November 2026, 13:11:09 +0100)
+>
+> - Rank each risk: severity (cosmetic → irreversible loss) x likelihood. Irreversible bumps severity one level. (9 November 2026, 13:11:09 +0100)
+> - Keep the top 5 maximum. Dismissed risks get one summary line total. (9 November 2026, 13:11:09 +0100)
+> - Every kept risk carries its **proof** (per Step 2) and **one concrete check** to confirm or kill it: a command, a test, a call, a calculation, a measurement. (9 November 2026, 13:11:09 +0100)
+>
+> ## Output format (compact, French by default on this account) (9 November 2026, 13:11:09 +0100)
+>
+> ``` (9 November 2026, 13:11:09 +0100)
+> Décision/changement : 1 à 3 lignes. (9 November 2026, 13:11:09 +0100)
+> Angles morts (4 lectures) : 1 ligne chacune. (9 November 2026, 13:11:09 +0100)
+> | # | Risque | Preuve | Sév x Prob | Vérification | (9 November 2026, 13:11:09 +0100)
+> Écartés : 1 ligne. (9 November 2026, 13:11:09 +0100)
+> Questions ouvertes : numérotées, chacune avec un défaut recommandé (accord par silence). (9 November 2026, 13:11:09 +0100)
+> Verdict : GO / GO avec corrections (listées) / NO-GO + correction minimale. (9 November 2026, 13:11:09 +0100)
+> ``` (9 November 2026, 13:11:09 +0100)
+>
+> ## Stop conditions and anti-goals (9 November 2026, 13:11:09 +0100)
+>
+> - **ONE pass.** Re-run only if the facts changed afterwards, and only on the delta. Never apply this skill to its own output. (9 November 2026, 13:11:09 +0100)
+> - It audits ONE stated decision or change. It does not generate unsolicited master plans. (9 November 2026, 13:11:09 +0100)
+> - Not a substitute for tests, CI, or licensed professionals on high-stakes legal, medical or financial moves: it catches known failure classes, not novel ones. Say that plainly instead of implying completeness. (9 November 2026, 13:11:09 +0100)
+>
+>
+> ARGUMENTS: ZenRay Past : construire jusqu'au bout le past.dev local (PLAN.md de /Users/zenray/.claude/tmp/tmp-zenray-past, 20 feuilles), avec bascule de CLAUDE.md, skills et PROGRESS.md, onglet Past et chronologie 3D déployés sur ZenRayProgress. (9 November 2026, 13:11:09 +0100)
