@@ -596,3 +596,35 @@
 >
 >
 > ARGUMENTS: ZenRay Past : construire jusqu'au bout le past.dev local (PLAN.md de /Users/zenray/.claude/tmp/tmp-zenray-past, 20 feuilles), avec bascule de CLAUDE.md, skills et PROGRESS.md, onglet Past et chronologie 3D déployés sur ZenRayProgress. (9 November 2026, 13:11:09 +0100)
+
+## 9 November 2026, 13:12:04 +0100 : Iteration
+
+<!-- feedback-event:152be4c0dbc604c4374e86e11df353281841dfe35a41dcf12444c02da9bd9d60 (9 November 2026, 13:12:04 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 13:12:04 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:12:04 +0100)
+
+> **Pense à tout, avant de coder la suite** (9 November 2026, 13:12:04 +0100)
+>
+> Décision : construire ZenRay Past jusqu'au bout, puis basculer CLAUDE.md, les skills et PROGRESS.md, et déployer l'onglet Past. (9 November 2026, 13:12:04 +0100)
+>
+> - **Lecture littérale** : reproduire past.dev en local et en faire la source de vérité. (9 November 2026, 13:12:04 +0100)
+> - **Lecture inverse** : si ZenRay Past retrouve moins bien que Claude Code seul, la bascule dégrade la mémoire de tous les agents. (9 November 2026, 13:12:04 +0100)
+> - **Questions adjacentes** : qui lit PROGRESS.md aujourd'hui ? Où vivent les données privées ? Comment éviter le bruit qu'a produit ZenRay Knowledge ? (9 November 2026, 13:12:04 +0100)
+> - **Reformulation** : supprimer l'amnésie entre les sessions sans casser ce qui marche et sans exposer de données privées. (9 November 2026, 13:12:04 +0100)
+>
+> | # | Risque | Preuve mesurée | Sév × Prob | Correction retenue | (9 November 2026, 13:12:04 +0100)
+> |---|---|---|---|---| (9 November 2026, 13:12:04 +0100)
+> | 1 | Marquer PROGRESS.md « deprecated » casse ses lecteurs | 43 fichiers des skills et des règles le citent ; `ResumeBrief.mjs` le lit ; le relais du journal tourne (port 47831) et alimente l'onglet Progress | haute × haute | Double écriture : `progress.mjs` continue d'écrire dans le fichier et alimente aussi ZenRay Past. On déprécie la lecture directe du fichier, pas le fichier lui-même | (9 November 2026, 13:12:04 +0100)
+> | 2 | Le déploiement écrase le travail d'autres sessions | ZenRayProgress a 12 commits de retard sur origin/main et 43 fichiers modifiés par d'autres sessions | haute × haute | Travailler dans un worktree propre tiré d'origin/main, ne commiter que mes fichiers, puis revérifier 10 minutes après le déploiement | (9 November 2026, 13:12:04 +0100)
+> | 3 | Un banc « vert » par surapprentissage | Les 13 questions sont connues et je réglerais le rappel dessus | haute × moyenne | Écrire 12 nouvelles questions avant tout réglage, ne jamais régler sur elles, et exiger les deux bancs verts avant la bascule | (9 November 2026, 13:12:04 +0100)
+> | 4 | Le bruit et le coût reviennent, comme avec ZenRay Knowledge | 21 475 des 22 993 commits de Memory1 sont des « auto-sync » ; les conversations pèsent 13 Go (Claude) et 3,8 Go (Codex) | moyenne × haute | Ne garder que les 1 518 vrais commits ; découper les conversations en séances, prompts et réponses seulement ; aucun texte injecté à chaque prompt | (9 November 2026, 13:12:04 +0100)
+> | 5 | Des données privées partent sur le cloud | La vue Past serait sur un site public, et la base contient des conversations | haute × moyenne | Les données de la vue Past restent sur le Mac, servies sur 127.0.0.1 comme le relais du journal ; hors du Mac, la vue retombe sur le journal déjà publié | (9 November 2026, 13:12:04 +0100)
+>
+> **Écartés** : le coût d'API, puisque tout est local ; la tenue à grande échelle, puisque la recherche vectorielle exhaustive reste sous 0,1 seconde jusqu'à environ 150 000 vecteurs. (9 November 2026, 13:12:04 +0100)
+>
+> **Questions ouvertes** (sans réponse de ta part, le choix par défaut s'applique) : (9 November 2026, 13:12:04 +0100)
+> 1. Envoyer ZenRayPast sur GitHub ? Par défaut, non : la sauvegarde passe par Assets. (9 November 2026, 13:12:04 +0100)
+> 2. Un résumé de reprise injecté au démarrage de session ? Par défaut, seulement après que les deux bancs sont verts, plafonné à 1 500 tokens. (9 November 2026, 13:12:04 +0100)
+> 3. Le modèle de 118 Mo ? Je retiens ton « carte blanche » comme accord pour l'étape 09, avec NLEmbedding d'Apple essayé d'abord. (9 November 2026, 13:12:04 +0100)
+>
+> **Verdict** : GO, avec ces cinq corrections. (9 November 2026, 13:12:04 +0100)
