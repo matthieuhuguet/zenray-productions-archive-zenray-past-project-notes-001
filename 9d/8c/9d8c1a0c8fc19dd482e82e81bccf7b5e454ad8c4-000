@@ -1176,3 +1176,38 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:54:37 +0100)
 
 > J'attends la fin de l'archive Assets, qui est le dernier geste de clôture. Je regarde l'état de sa tâche, pour comprendre pourquoi 4 fichiers restent en attente. (9 November 2026, 14:54:37 +0100)
+
+## 9 November 2026, 14:55:19 +0100 : Iteration
+
+<!-- feedback-event:5280c85e9b71035b56264982f2cd6e6e1196ff7f535c498f1ecc943de0c66b11 (9 November 2026, 14:55:19 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:55:19 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:55:19 +0100)
+
+> ZenRay Past est construit, mesuré et en service. Ton CLAUDE.md, tes skills et ton site s'appuient maintenant dessus. (9 November 2026, 14:55:19 +0100)
+>
+> **Le résultat qui compte.** J'ai fait répondre un modèle qui ne voyait que les pages renvoyées par ZenRay Past. Il répond juste à **25 questions sur 25**. Parmi elles, 12 ont été écrites par un autre agent avant tout réglage, et je ne les ai pas lues avant la correction ; on y trouve 6 valeurs qui ont changé avec le temps et 2 pièges, auxquels il a répondu « introuvable ». Chaque question coûte environ **6 000 tokens**, contre environ 23 000 pour Claude Code seul, qui avait obtenu 12 sur 13. Le rappel répond en 0,2 seconde environ. (9 November 2026, 14:55:19 +0100)
+>
+> **Trois défauts trouvés et corrigés en route.** Je te les signale parce qu'aucun ne se voyait : (9 November 2026, 14:55:19 +0100)
+> - **La recherche par le sens était en panne sans bruit.** `1 << 31` est négatif en JavaScript, et l'erreur était avalée. Chaque réponse dit désormais si les vecteurs ont servi, et le banc refuse de compter un passage sans eux. (9 November 2026, 14:55:19 +0100)
+> - **Le journal contenait le code du drive dans 4 entrées.** Il est filtré, et sa recherche dans les octets bruts de la base donne 0. (9 November 2026, 14:55:19 +0100)
+> - **Mon worktree se trouvait dans le dossier surveillé par Assets**, qui commençait à archiver 2,5 Go de code ; je l'en ai sorti. (9 November 2026, 14:55:19 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 14:55:19 +0100)
+> |---|---|---| (9 November 2026, 14:55:19 +0100)
+> | Reproduire past.dev, sans payer l'API | Oui | Tout tourne sur le Mac ; documentation de past.dev lue en entier | (9 November 2026, 14:55:19 +0100)
+> | Données brutes et horodatées : sessions, commits, PR, transcripts, documentation | Oui | 33 583 points datés, 176 828 souvenirs, autant de vecteurs | (9 November 2026, 14:55:19 +0100)
+> | Valeur actuelle distinguée des anciennes, avec la source datée | Oui | Les 6 questions de valeurs remplacées sont toutes justes | (9 November 2026, 14:55:19 +0100)
+> | Ne renvoyer que les preuves, sous un budget strict | Oui | Environ 6 000 tokens par question, jamais plus de 8 000 | (9 November 2026, 14:55:19 +0100)
+> | Tes notes du jour interrogeables en local | Oui | 67 notes, celles des 1, 3 et 5 novembre comprises ; « ma note du jour » sur League of Legends sort en tête | (9 November 2026, 14:55:19 +0100)
+> | Onglet Progress renommé Past, en Adobe Clean, avec la chronologie 3D | Oui | 3 028 tests verts ; même empreinte de paquet en local et en production, revérifiée dix minutes après | (9 November 2026, 14:55:19 +0100)
+> | ZenRay Past dans CLAUDE.md, interrogé presque à chaque question | Oui | Priorité 0 en tête ; vérification du fichier verte ; miroirs Codex et Gemini à jour | (9 November 2026, 14:55:19 +0100)
+> | Mettre à jour tous les skills `zenray-*`, puis tout synchroniser | Oui | 50 skills actifs, plus `progress` et `zenray-resume-coordinator` ; 51 synchronisations sans erreur | (9 November 2026, 14:55:19 +0100)
+> | PROGRESS.md marqué deprecated avec la date | Oui, pour la lecture | L'écriture continue en double, parce que 43 fichiers et le relais du journal lisent encore ce fichier | (9 November 2026, 14:55:19 +0100)
+> | Améliorer `zenray-resume-coordinator` | Oui | Il commence par `past_resume`, qui rend la prochaine étape en moins de 600 tokens | (9 November 2026, 14:55:19 +0100)
+> | Fichiers .md d'appui, tâches découpées | Oui | PLAN.md : 23 étapes, chacune avec sa preuve | (9 November 2026, 14:55:19 +0100)
+> | Un cron pour faire avancer le travail | Non | La création a été refusée par le contrôle des permissions ; le texte est prêt dans TASK-PROMPT.md. Le service rafraîchit pourtant la base toutes les 10 minutes : une entrée écrite à 13:26 était dans la base à 13:36 | (9 November 2026, 14:55:19 +0100)
+> | Synthèse HTML et archive Assets | Oui | 18 nombres vérifiés (et la vérification échoue sur une copie faussée) ; archive terminée avec 0 fichier restant | (9 November 2026, 14:55:19 +0100)
+>
+> Une chose n'est pas vérifiée : je n'ai pas regardé la vue Past dans le site en production, parce qu'il demande le code du drive et que je ne le saisis pas. Je l'ai regardée en local, sur exactement le même commit. (9 November 2026, 14:55:19 +0100)
+>
+> Tous les fichiers sont dans [/Users/zenray/.claude/tmp/tmp-zenray-past](/Users/zenray/.claude/tmp/tmp-zenray-past). La synthèse est [/Users/zenray/.claude/tmp/tmp-zenray-past/Articles/index.html](/Users/zenray/.claude/tmp/tmp-zenray-past/Articles/index.html) et le moteur vit dans [/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPast](/Users/zenray/Create/Build/Productions/GithubProductions/ZenRayPast). (9 November 2026, 14:55:19 +0100)
