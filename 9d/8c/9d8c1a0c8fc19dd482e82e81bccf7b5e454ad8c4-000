@@ -1669,3 +1669,73 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:21:33 +0100)
 
 > L'archive Assets de zenray-past est terminée : les 27 fichiers sont sauvegardés et aucun n'est en attente. La ligne affichée commence par « still » à cause d'un défaut de mon script d'attente, mais l'état lu est bien « backed-up 27 0 27 ». Plus rien n'est en cours dans cette session. (9 November 2026, 15:21:33 +0100)
+
+## 9 November 2026, 15:42:32 +0100 : Prompt
+
+<!-- feedback-event:c56db57df49acc14bf79819351d83b8ffac434ca5a3e1bd5fe81edf9439568a0 (9 November 2026, 15:42:32 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 15:42:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:42:32 +0100)
+
+> Oui, mais du coup maintenant, enfin, il aurait fallu tester Past pour savoir s'il fonctionne mieux que il aurait fallu il aurait fallu savoir si je sais plus comment ça s'appelle, mais il aurait fallu savoir si... Comment ça s'appelle? Oui, il aurait fallu savoir si ZenRay Past, il peut répondre à n'importe quelle question du passé et comment ça fonctionne techniquement désormais. Et si ZenRay Past est fini à 100%, et si t'as rien oublié, etc. Tu vois. Donc par exemple, enfin comment est-ce qu'on peut interroger, notamment sur les notes d'aujourd'hui. Par exemple, si je crée une note, c'est ce que je vais faire d'ailleurs. Je vais créer une note là maintenant tout de suite, et je vais je mets par exemple n égale à  (9 November 2026, 15:42:32 +0100)
+>
+> <pasted_content id="9506"> (9 November 2026, 15:42:32 +0100)
+> Ah oui. Et du coup, par exemple, là, tu vois, dans la note du jour, j'ai mis n égale à un nombre que j'aimerais que tu détermines. Mais le truc, c'est que l'agent local doit le savoir aussi, tu vois. Donc, soit, en fait, on fait une ZenRay API, enfin, on fait une ZenRay PAST API, soit on fait un truc qui récupère les fichiers localement, mais bon, je pense que c'est pas forcément une bonne idée, étant donné que ça va prendre pas mal d'espace disque, tu vois. Bon, après, tu vois, si c'est des archives importantes, c'est bien de les télécharger aussi, mais le truc, c'est que de toute manière, on aura besoin de poser des questions à un truc qui sera cloudé, tu vois. Donc, je sais pas. De toute manière, récupère la note du 9 novembre, mets à jour ZenRay Notes pour que déjà tout soit au format Adobe Clean en termes de fonte, parce qu'actuellement, il y a encore les nombres qui sont en GT Ultra. Donc il faut corriger ça. Et ensuite, tu me dis n égale à combien une fois que tu as construit soit l'API, soit la méthode de vérification sur des informations qui sont du coup du passé, tu vois. Et aussi, il faudrait sur la note mettre un petit élément en petit en forme d'horodatage, en mode tu as noté à tel moment le truc, tu vois. (9 November 2026, 15:42:32 +0100)
+> </pasted_content id="9506"> (9 November 2026, 15:42:32 +0100)
+>
+>  sur les notes. (9 November 2026, 15:42:32 +0100)
+
+## 9 November 2026, 15:44:42 +0100 : Iteration
+
+<!-- feedback-event:c3fa57a8ae088c6d144449ad67de78f703ea9279c62b157c18d9f4c7ca8e3cf6 (9 November 2026, 15:44:42 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:44:42 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:44:42 +0100)
+
+> Les deux correctifs du classement sont en place (les lignes courtes des notes comptent, et l'élément du jour nommé est favorisé) ; je relance le banc pour vérifier qu'ils ne cassent rien. (9 November 2026, 15:44:42 +0100)
+
+## 9 November 2026, 15:46:07 +0100 : Iteration
+
+<!-- feedback-event:46859be0c553ecb3e3188ce634a1b411ba7f98bd39064ae0c208adf70dd85c6b (9 November 2026, 15:46:07 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:46:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:46:07 +0100)
+
+> ZenRay Notes, c'est l'éditeur de pages (`Pages.jsx`), où la note du jour s'ouvre ; je cherche les règles de police qui y laissent passer les chiffres en GT Ultra. (9 November 2026, 15:46:07 +0100)
+
+## 9 November 2026, 15:46:32 +0100 : Iteration
+
+<!-- feedback-event:d10d0ada47650673b5bfe9afcb9ec2ad5b22b87bbb577667c8525edec982b3e6 (9 November 2026, 15:46:32 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:46:32 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:46:32 +0100)
+
+> La note s'écrit dans l'éditeur `PageEditorBN` (BlockNote) ; je lis ses polices pour remplacer les chiffres GT Ultra par Adobe Clean dans ce seul éditeur. (9 November 2026, 15:46:32 +0100)
+
+## 9 November 2026, 15:48:06 +0100 : Iteration
+
+<!-- feedback-event:736789e4e1daa9ac9010d00cc4228dc8c2694ef3ff10c85d823afcbd80420d47 (9 November 2026, 15:48:06 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:48:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:48:06 +0100)
+
+> Now the edits: server action, editor timestamp, Notes font scope, and a test. (9 November 2026, 15:48:06 +0100)
+
+## 9 November 2026, 15:50:28 +0100 : Iteration
+
+<!-- feedback-event:6478c860cad1eda488aa408397b141f059b25c487d6a17dd8000653be94aef3c (9 November 2026, 15:50:28 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:50:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:50:28 +0100)
+
+> La portée fonctionne : hors de ZenRay Notes, la page témoin garde Literata avec les chiffres en GT Ultra ; à l'intérieur, tout passe en Adobe Clean, chiffres et horodatage compris. Je publie. (9 November 2026, 15:50:28 +0100)
+
+## 9 November 2026, 15:51:20 +0100 : Prompt
+
+<!-- feedback-event:9d7520583f8b327a84b58a3879f38ff2a5b8a3e31dc865653f7b389047aa94d6 (9 November 2026, 15:51:20 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 15:51:20 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:51:20 +0100)
+
+> Bah non, justement, parce que je viens de te dire que les chiffres ne sont plus en GT Ultra mais en Adobe Clean. (9 November 2026, 15:51:20 +0100)
+
+## 9 November 2026, 15:51:35 +0100 : Iteration
+
+<!-- feedback-event:e2059c763959145e5f9076b0d8067979d3d99abefb3f17c610ad48e5f3f7d176 (9 November 2026, 15:51:35 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:51:35 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:51:35 +0100)
+
+> Compris : les chiffres passent en Adobe Clean sur tout le site, pas seulement dans Notes. Je fais l'inventaire de tout ce qui affiche encore des chiffres en GT Ultra. (9 November 2026, 15:51:35 +0100)
