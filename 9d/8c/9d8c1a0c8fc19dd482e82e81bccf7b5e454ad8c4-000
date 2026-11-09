@@ -1755,3 +1755,67 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:03:28 +0100)
 
 > Je passe à l'audit : cinq questions neuves, absentes des bancs, posées à ZenRay Past puis contrôlées dans leur source. (9 November 2026, 16:03:28 +0100)
+
+## 9 November 2026, 16:09:17 +0100 : Iteration
+
+<!-- feedback-event:a275254326e0a8da61d2d7e0c9ce250bf0c7d43b3e6e9c31cb19ed0884125e91 (9 November 2026, 16:09:17 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:09:17 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:09:17 +0100)
+
+> La synthèse se vérifie de nouveau (20 nombres retrouvés, aucun tiret long). Je regarde le schéma pour m'assurer que les huit lignes tiennent dans leurs cadres, puis je publie dans Assets. (9 November 2026, 16:09:17 +0100)
+
+## 9 November 2026, 16:10:26 +0100 : Iteration
+
+<!-- feedback-event:209566bae598837c477a503e5470794e0d923dcf9b330a14788432d38403a593 (9 November 2026, 16:10:26 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:10:26 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:10:26 +0100)
+
+> Now the skill gets the same facts, then the synthesis is republished. (9 November 2026, 16:10:26 +0100)
+
+## 9 November 2026, 16:11:25 +0100 : Prompt
+
+<!-- feedback-event:a4918a99b07528faf6cafd5f5a7fc69098eeccc9250fc3d2e045880540ccde0a (9 November 2026, 16:11:25 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 16:11:25 +0100)
+
+> 9 November 2026 : Matthieu demande de tester ZenRay Past sur une note du jour (n = ?), que l'agent local la connaisse aussi, de passer ZenRay Notes en Adobe Clean avec un petit horodatage, puis précise que les chiffres ne sont plus en GT Ultra mais en Adobe Clean sur tout le site. (9 November 2026, 16:11:25 +0100)
+
+## 9 November 2026, 16:11:45 +0100 : Iteration
+
+<!-- feedback-event:c118568c866046401927bafb3c149ba4b423a16e7a949a583bca28fa6d74a078 (9 November 2026, 16:11:45 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:11:45 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:11:45 +0100)
+
+> Une autre session vient de publier par-dessus ma version (sa galerie de documents, construite sur mon commit). Je vérifie que mes règles de police sont toujours servies. (9 November 2026, 16:11:45 +0100)
+
+## 9 November 2026, 16:12:28 +0100 : Iteration
+
+<!-- feedback-event:b9fbc71ce3a1300791afda7bac2758189ce27ad32679ce4c1417ae22ce8f3a03 (9 November 2026, 16:12:28 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:12:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:12:28 +0100)
+
+> n = 35. ZenRay Past l'a retrouvé dans ta note du 9 novembre, et GitHub confirme cette valeur, enregistrée à 15:40:54. Au premier essai, la note n'arrivait qu'au 6e rang des résultats. Deux raisons à cela : « N = 35 » était jugé trop court pour devenir un souvenir, et le jour nommé dans la question ne pesait pas assez. J'ai corrigé les deux, et elle arrive désormais au 1er rang. (9 November 2026, 16:12:28 +0100)
+>
+> **Pour l'agent local.** La note n'a pas besoin d'API : le service de ZenRay Past vérifie maintenant tes notes chaque minute, par un seul appel à GitHub, et n'en télécharge que le texte. Les 187 notes pèsent 1,2 Mo sur le disque, donc la place n'est pas un problème. Chaque note porte aussi l'heure de sa dernière écriture, si bien que « à quelle heure ai-je noté N = 35 ? » obtient 15:40. Une API dans le cloud ne servirait qu'aux agents qui ne tournent pas sur ton Mac, comme une session cloud ou ton téléphone. Elle demanderait de mettre ta mémoire privée sur Cloudflare, et c'est pour cela que je te pose la question au lieu de la construire. (9 November 2026, 16:12:28 +0100)
+>
+> **Dans ZenRay Notes et sur le site.** Toute la vue Notes est en Adobe Clean, chiffres compris. Sous la note s'affiche « Noté le 9 novembre 2026 à 15:40 », mis à jour après chaque sauvegarde réussie. Sur tout ZenRayProgress, les chiffres viennent maintenant d'Adobe Clean, et GT Ultra ne garde que les lettres des titres. (9 November 2026, 16:12:28 +0100)
+>
+> **Est-ce fini à 100 % ?** Non. J'ai posé cinq questions neuves : quatre ont leur bonne réponse au 1er rang, et la cinquième (« quelle police pour les synthèses ? ») au 4e. Elle m'a montré un vrai oubli : ZenRay Past ne lisait ni le CLAUDE.md, ni tes règles, ni les skills. Je les ai ajoutés, soit 2 370 sections datées. Il reste quatre choses : (9 November 2026, 16:12:28 +0100)
+> - les `references/` des skills ne sont pas encore lues ; (9 November 2026, 16:12:28 +0100)
+> - les conversations Gemini et Antigravity ne sont pas lues non plus ; (9 November 2026, 16:12:28 +0100)
+> - la tâche quotidienne reste bloquée, mais le service fait déjà ce travail ; (9 November 2026, 16:12:28 +0100)
+> - la base ne sort pas du Mac. (9 November 2026, 16:12:28 +0100)
+>
+> **Deux erreurs de ma part, réparées.** La première : le service tournait encore avec l'ancien code, et sa synchronisation de 10 minutes a retiré les règles et l'heure des notes de la base. Je l'ai redémarré, la base est complète, et le README dit maintenant de relancer le service après chaque changement de code. La seconde : j'ai publié alors que 3 tests échouaient. Ces trois tests concernaient le service Assets, pas mon changement (qui ne touche que quatre fichiers CSS), et ils passent tous (118 sur 118) quand on les lance seuls. Je n'aurais quand même pas dû enchaîner la publication sans vérifier le résultat. (9 November 2026, 16:12:28 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 16:12:28 +0100)
+> |---|---|---| (9 November 2026, 16:12:28 +0100)
+> | Savoir combien vaut n | Oui : 35 | ZenRay Past le donne au 1er rang, et le fichier sur GitHub dit « N = 35 », enregistré à 15:40:54 | (9 November 2026, 16:12:28 +0100)
+> | Que l'agent local le sache aussi | Oui | Une note est connue en une minute environ, avec son heure d'écriture, sans API ; 1,2 Mo sur le disque | (9 November 2026, 16:12:28 +0100)
+> | Savoir si ZenRay Past marche vraiment | Oui, avec des limites | 13 questions sur 13 au banc connu ; 4 questions neuves sur 5 au 1er rang, la 5e au 4e ; 38 tests du moteur verts | (9 November 2026, 16:12:28 +0100)
+> | ZenRay Notes tout en Adobe Clean | Oui, en ligne | Une page témoin avec le vrai CSS montre Adobe Clean partout dans Notes ; la production sert ces règles | (9 November 2026, 16:12:28 +0100)
+> | Les chiffres en Adobe Clean, pas en GT Ultra | Oui, sur tout le site | « 0123456789 » mesure 163,13 px, la largeur d'Adobe Clean (GT Ultra pur : 196,21 px) ; les lettres des titres n'ont pas bougé | (9 November 2026, 16:12:28 +0100)
+> | Un petit horodatage sur la note | Oui, en ligne, pas vu de mes yeux | Les tests passent et le format est vérifié (« Noté le 9 novembre 2026 à 15:40 »). Je ne peux pas ouvrir tes notes en production : elles sont derrière ton code | (9 November 2026, 16:12:28 +0100)
+> | ZenRay Past fini à 100 % | Non | Il manque les références des skills, Gemini et Antigravity, et l'accès depuis le cloud | (9 November 2026, 16:12:28 +0100)
+> | Synthèse et sauvegarde | Synthèse oui, archive en cours | Le vérificateur de la synthèse passe au vert, puis au rouge sur une copie faussée ; l'archive Assets est en cours | (9 November 2026, 16:12:28 +0100)
+>
+> Ta demande en plus court : « Teste ZenRay Past sur ma note du jour (n = ?), fais-la connaître à l'agent local, passe ZenRay Notes et tous les chiffres du site en Adobe Clean, et ajoute un petit horodatage aux notes. » (9 November 2026, 16:12:28 +0100)
