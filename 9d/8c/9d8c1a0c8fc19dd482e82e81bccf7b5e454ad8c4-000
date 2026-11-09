@@ -1620,3 +1620,30 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:10:08 +0100)
 
 > L'archive Assets (23 sur 27 fichiers sauvegardés) finit en arrière-plan ; pendant ce temps, j'ajoute le skill au README du moteur et je t'envoie le laboratoire typographique. (9 November 2026, 15:10:08 +0100)
+
+## 9 November 2026, 15:10:36 +0100 : Iteration
+
+<!-- feedback-event:8dcfd362432a1089b001ff446ceb8edf232ec49f264b7b7fbf0f7a7b802a11e3 (9 November 2026, 15:10:36 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 15:10:36 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 15:10:36 +0100)
+
+> Le skill `zenray-past` existe et regroupe les appels de ZenRay Past. Pour une reprise, on enchaîne `past_resume`, puis `past_recall`, puis la liaison Assets si tu déclares un projet. Son index liste douze chemins, chacun avec la situation où le lire, et il est le seul fichier chargé au déclenchement. (9 November 2026, 15:10:36 +0100)
+>
+> `zenray-resume-coordinator` n'a pas été supprimé. Son texte est copié à l'identique dans [ResumeCoordinator.md](/Users/zenray/.claude/skills/zenray-past/references/ResumeCoordinator.md), avec une note de dépréciation datée et l'empreinte de l'ancien fichier. L'ancien dossier et ses deux copies (Codex et Memory1) sont dans la Corbeille, dans `/Users/zenray/.Trash/zenray-resume-coordinator-moved-9-November-2026`. (9 November 2026, 15:10:36 +0100)
+>
+> J'ai rangé l'index dans un sous-dossier du skill plutôt que dans les rules. Un fichier de rules sans `paths` se charge à chaque démarrage, alors que les fichiers du skill ne se lisent qu'à la demande. Comme la commande `/zenray-resume-coordinator` n'existe plus, la description de `zenray-past` cite son nom pour qu'une demande de ce type le déclenche. (9 November 2026, 15:10:36 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 15:10:36 +0100)
+> |---|---|---| (9 November 2026, 15:10:36 +0100)
+> | ZenRay Past devient un skill avec sa documentation et ses appels | Oui | [SKILL.md](/Users/zenray/.claude/skills/zenray-past/SKILL.md) est synchronisé (code 0) ; l'app le liste désormais parmi les skills disponibles | (9 November 2026, 15:10:36 +0100)
+> | Resume Coordinator deprecated, déplacé et non supprimé | Oui | Copie identique au bit près (contrôle `cmp`), note datée en fin de fichier, ancien dossier dans la Corbeille | (9 November 2026, 15:10:36 +0100)
+> | Index mapping relié au projet | Oui | Les 16 chemins nommés existent tous. [BuildIndexMapping.mjs](/Users/zenray/.claude/tmp/tmp-zenray-past/Scripts/BuildIndexMapping.mjs) refait l'inventaire du projet et inclut le skill : son contrôle passe au vert, au rouge quand un fichier change, puis de nouveau au vert | (9 November 2026, 15:10:36 +0100)
+> | Chargement économe à la demande | Oui | Rien n'a été ajouté aux rules. CLAUDE.md a gagné une seule ligne et pèse 65 443 octets, il reste 93 octets avant la limite | (9 November 2026, 15:10:36 +0100)
+> | Plus aucun lien vers l'ancien skill | Oui | L'index des skills a été régénéré : `zenray-past` y est, `resume-coordinator` n'y figure plus. Seuls d'anciens articles du 25 et 26 octobre le citent encore, comme historique | (9 November 2026, 15:10:36 +0100)
+> | Polices de la synthèse et des futurs travaux en Adobe Clean | Oui | L'agent a fait d'Adobe Clean le défaut des articles. Son test, créé pour l'occasion, passe 4 sur 4, échoue avec l'ancien défaut, puis repasse. Le laboratoire est vérifié dans ZenRay Documents et je te l'ai envoyé | (9 November 2026, 15:10:36 +0100)
+> | Le site ne régresse pas | Oui | Plus de dix minutes après le déploiement, la production sert toujours le même fichier principal (`index-TQDueNU1.js`) | (9 November 2026, 15:10:36 +0100)
+> | Sauvegarde Assets du projet | En cours | 23 fichiers sur 27 sauvegardés. Treize anciens fichiers de code ZenRayProgress apparaissent comme « missing » : ce sont les fichiers de l'ancien dossier de travail que j'avais sorti de l'atelier, le statut est donc normal | (9 November 2026, 15:10:36 +0100)
+>
+> Les articles qui n'imposent pas de police passeront en Adobe Clean à leur prochaine reconstruction. Pour garder l'ancien rendu d'un article, il suffit d'y ajouter `"fontSet": "sectra"`. (9 November 2026, 15:10:36 +0100)
+>
+> Ta demande en plus court : « Crée le skill zenray-past avec tous ses appels et un index des chemins lus à la demande, puis range-y resume-coordinator, déprécié mais intact. » (9 November 2026, 15:10:36 +0100)
