@@ -1,7 +1,7 @@
 {
  "schemaVersion": 1,
  "projectId": "zenray-past",
- "scannedAt": "2026-11-09T14:11:20.021Z",
+ "scannedAt": "2026-11-09T14:22:17.197Z",
  "conversations": [
   {
    "projectId": "zenray-past",
@@ -15,8 +15,8 @@
    "provider": "claude",
    "sessionId": "e8ea2178-33dd-484a-8fb4-198702093ebf",
    "title": "zenray past + typo",
-   "updatedAt": "2026-11-09T14:10:39.711Z",
-   "bytes": 39626,
+   "updatedAt": "2026-11-09T14:21:35.161Z",
+   "bytes": 39478,
    "boundProject": "zenray-past"
   },
   {
@@ -31,8 +31,8 @@
    "provider": "codex",
    "sessionId": "01a1b880-053e-79d2-a657-256ca3f2e083",
    "title": "Conversation codex 01a1b880",
-   "updatedAt": "2026-11-09T14:11:02.227Z",
-   "bytes": 14263674,
+   "updatedAt": "2026-11-09T14:22:01.083Z",
+   "bytes": 15699852,
    "boundProject": null
   },
   {
@@ -63,8 +63,8 @@
    "provider": "claude",
    "sessionId": "fdce96ce-c0fd-4b6e-8530-957817ed13c2",
    "title": "zenray documents",
-   "updatedAt": "2026-11-09T14:10:44.957Z",
-   "bytes": 15370456,
+   "updatedAt": "2026-11-09T14:13:54.759Z",
+   "bytes": 38115,
    "boundProject": null
   },
   {
