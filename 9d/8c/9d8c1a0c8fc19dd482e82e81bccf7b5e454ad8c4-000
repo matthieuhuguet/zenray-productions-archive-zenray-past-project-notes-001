@@ -2097,3 +2097,41 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:49:57 +0100)
 
 > La synthèse est republiée : le vérificateur passe au vert, puis au rouge sur une copie faussée. J'attends deux confirmations, la sauvegarde Assets et la propagation de la dernière version du site, avant de faire le bilan. (9 November 2026, 16:49:57 +0100)
+
+## 9 November 2026, 16:52:28 +0100 : Prompt
+
+<!-- feedback-event:3533b611661f36b00a8fc4dcb7e7861a576ac9e3c7ce69c814079cd1de37ff87 (9 November 2026, 16:52:28 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 16:52:28 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:52:28 +0100)
+
+> <task-notification> (9 November 2026, 16:52:28 +0100)
+> <task-id>brbw4tgb0</task-id> (9 November 2026, 16:52:28 +0100)
+> <tool-use-id>toolu_0161J5AwQa37LUCyYUtFVyVs</tool-use-id> (9 November 2026, 16:52:28 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf/tasks/brbw4tgb0.output</output-file> (9 November 2026, 16:52:28 +0100)
+> <status>completed</status> (9 November 2026, 16:52:28 +0100)
+> <summary>Background command "Wait in the background until the zenray-past archive is fully backed up" completed (exit code 0)</summary> (9 November 2026, 16:52:28 +0100)
+> </task-notification> (9 November 2026, 16:52:28 +0100)
+
+## 9 November 2026, 16:52:40 +0100 : Iteration
+
+<!-- feedback-event:08aef53ef64435bbb612cf6c4795f40b77b82a31fa402b367dfe5ebad0a56e74 (9 November 2026, 16:52:40 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:52:40 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:52:40 +0100)
+
+> La sauvegarde Assets est complète (33 fichiers sur 33). En revanche, la production sert encore l'avant-dernière version : je vérifie la liste des déploiements. (9 November 2026, 16:52:40 +0100)
+
+## 9 November 2026, 16:54:56 +0100 : Iteration
+
+<!-- feedback-event:64596a585248ed8c7288c71b04c36e7d336a8e4c317dfb5c82ebf8a6a0047eee (9 November 2026, 16:54:56 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:54:56 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:54:56 +0100)
+
+> Les anciens déploiements répondent 200 et les deux nouveaux 404, alors que seuls trois petits fichiers de la vue Past ont changé. Je lis le journal complet du déploiement. (9 November 2026, 16:54:56 +0100)
+
+## 9 November 2026, 16:55:07 +0100 : Iteration
+
+<!-- feedback-event:7d7b6b1490ae31f6e42814d21379386ef5019b12475a206579a7e68272326cae (9 November 2026, 16:55:07 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 16:55:07 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 16:55:07 +0100)
+
+> Cloudflare ne signale aucun incident sur Pages. J'attends le résultat de la vérification en cours (trois minutes) avant de décider. (9 November 2026, 16:55:07 +0100)
