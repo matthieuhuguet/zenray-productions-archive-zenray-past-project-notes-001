@@ -660,3 +660,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:22:54 +0100)
 
 > Le second passage montre encore 26 identifiants qui disparaissent puis reviennent. Je cherche d'où vient cette instabilité avant de valider. (9 November 2026, 13:22:54 +0100)
+
+## 9 November 2026, 13:27:06 +0100 : Order of work
+
+<!-- feedback-event:4e73bd0a2b5b91b7c7b6aad477808232c4cc3c95721279bd3452297aefeea65a (9 November 2026, 13:27:06 +0100) -->
+- Project: zenray-past; kind: order. (9 November 2026, 13:27:06 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf/subagents/agent-a30c7457f7d009f74.jsonl. (9 November 2026, 13:27:06 +0100)
+
+> You write a HELD-OUT test set for a memory-recall engine over Matthieu's notes in /Users/zenray/.claude/Memory1. The set must stay unseen by the person tuning the engine, so your final reply must NOT reveal any question or answer: reply only with the count written and the file path. (9 November 2026, 13:27:06 +0100)
+>
+> Write exactly 12 questions, in French, answerable from Memory1 files, each verified by reading the exact lines yourself (grep then read). Constraints: (9 November 2026, 13:27:06 +0100)
+> - Do NOT use these files (already used by another test): PVT/PVT-2027-Calendrier.html, Business/2026-09-23-plan-d-attaque/README.md, Business/Freelance1.md, Business/Business1.md, Business/Andreas1.md, Houdini/Houdini1.md, HealthSport/HealthSport1.md, ZenRayShards/ZenRayShards1.md, SocialMedia/SocialMedia1.md, Japanese/Japanese1.md. (9 November 2026, 13:27:06 +0100)
+> - Never read /Users/zenray/.claude/Memory1/Credentials nor any section about passwords or credentials in Identity/Matthieu1.md, and never put a secret in a question. (9 November 2026, 13:27:06 +0100)
+> - Mix: at least 4 "superseded" questions (a value or rule that changed over time: the expected answer is the CURRENT one, and you name the older one it replaced), at least 2 "dated" questions (state as of a given date), 2 "trap" questions whose answer is NOT in Memory1 (verify by searching; expected = that the information is absent), the rest "buried" details in long files. Prefer project and work facts (ZenRay projects, tools, decisions, rules, numbers) over intimate personal topics. (9 November 2026, 13:27:06 +0100)
+> - For each question give: id (h01..h12), kind, q, expected (one or two sentences), sources (relative path:line inside Memory1), mustContain (1 to 3 exact substrings, copied verbatim from the source line that holds the CURRENT answer, short and distinctive, e.g. a number or a name; empty list for traps), oldValue (verbatim substring of the replaced value for superseded questions, else null). (9 November 2026, 13:27:06 +0100)
+>
+> Write the JSON with the Write tool to /Users/zenray/.claude/tmp/tmp-zenray-past/bench/heldout.json as {"created":"9 November 2026","questions":[...]}, then check it parses (python3 -c 'import json;json.load(open(...))'). Final reply: one line, "12 questions written to <path>", nothing else. (9 November 2026, 13:27:06 +0100)
+
+## 9 November 2026, 13:27:14 +0100 : Iteration
+
+<!-- feedback-event:678e9a95ffdfd558127aad3bfdef4996efbf82e3dd0ebbaaa265fed807e14445 (9 November 2026, 13:27:14 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 13:27:14 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:27:14 +0100)
+
+> Pendant que cet agent écrit, je passe à la feuille 09 : les vecteurs. J'essaie d'abord NLEmbedding d'Apple, déjà présent sur le Mac, sans aucun téléchargement. (9 November 2026, 13:27:14 +0100)
