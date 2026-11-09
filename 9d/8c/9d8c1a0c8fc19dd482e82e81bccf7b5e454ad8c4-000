@@ -1152,3 +1152,27 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:52:20 +0100)
 
 > Le dossier de travail ne pèse plus que 2,1 Mo. J'arrête l'aperçu du site, qui tournait depuis l'ancien emplacement du worktree, puis je publie le projet et lance l'archive dans Assets. (9 November 2026, 14:52:20 +0100)
+
+## 9 November 2026, 14:54:01 +0100 : Iteration
+
+<!-- feedback-event:ad219ee4f528b05f80fbf104a795dd65e4d7cdcc07a823b807646ae167e5b26c (9 November 2026, 14:54:01 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:54:01 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:54:01 +0100)
+
+> L'archive reste à 21 fichiers sur 25. Je surveille sa fin en arrière-plan, pendant dix minutes au plus, plutôt que de l'interroger en boucle à la main. (9 November 2026, 14:54:01 +0100)
+
+## 9 November 2026, 14:54:27 +0100 : Iteration
+
+<!-- feedback-event:722f4bae490729473171171344798e7dd6684adc222f5727389087105a26215a (9 November 2026, 14:54:27 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:54:27 +0100)
+- Source: checkpoint:claude:e8ea2178-33dd-484a-8fb4-198702093ebf. (9 November 2026, 14:54:27 +0100)
+
+> ZenRay Past construit et basculé le 9 November 2026 : moteur local (journal, Memory1, commits, PR, séances, notes du jour ; souvenirs ; vecteurs e5 ; rappel sous budget), MCP zenray-past (Claude Code et Codex), service com.zenray.past, onglet Past 3D déployé depuis origin/main 9b9cf175, CLAUDE.md et 52 skills reliés. Banc : 25 sur 25 au lecteur, environ 6 000 tokens par question. Prochain : décision de Matthieu sur le sens base vers cloud ; autoriser la tâche planifiée. (9 November 2026, 14:54:27 +0100)
+
+## 9 November 2026, 14:54:37 +0100 : Iteration
+
+<!-- feedback-event:0dac7beca3d47f2bb210d982af8c4e53d814387b2d4d60b44be0431a4936a133 (9 November 2026, 14:54:37 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 14:54:37 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 14:54:37 +0100)
+
+> J'attends la fin de l'archive Assets, qui est le dernier geste de clôture. Je regarde l'état de sa tâche, pour comprendre pourquoi 4 fichiers restent en attente. (9 November 2026, 14:54:37 +0100)
