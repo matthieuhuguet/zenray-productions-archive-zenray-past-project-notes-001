@@ -644,3 +644,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:17:16 +0100)
 
 > Feuille 06 : les commits. Je n'en garde que les vrais, ce qui écarte les 8 737 « auto-sync » de `~/.claude` et les 21 475 de Memory1, ainsi que les deux dépôts de sauvegarde de conversations. (9 November 2026, 13:17:16 +0100)
+
+## 9 November 2026, 13:20:57 +0100 : Iteration
+
+<!-- feedback-event:9b4d67aff4fb71b514ea56a5b3c2df9bf8ab2704a9f74119f9325be68a765aea (9 November 2026, 13:20:57 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 13:20:57 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:20:57 +0100)
+
+> Les tests passent (13 sur 13). J'ingère maintenant les conversations : environ 13 Go côté Claude et 3,8 Go côté Codex, en arrière-plan. Pendant ce temps, je prépare la feuille 08. (9 November 2026, 13:20:57 +0100)
