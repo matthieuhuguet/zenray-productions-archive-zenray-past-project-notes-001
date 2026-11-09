@@ -2179,3 +2179,66 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 17:03:42 +0100)
 
 > J'attends le résultat de cette dernière publication avant de faire le bilan. (9 November 2026, 17:03:42 +0100)
+
+## 9 November 2026, 17:07:58 +0100 : Prompt
+
+<!-- feedback-event:eabfb25a7554e1300bd21c49194b885f5177e8ed50075548410320e37a325cef (9 November 2026, 17:07:58 +0100) -->
+- Project: zenray-past; kind: prompt. (9 November 2026, 17:07:58 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 17:07:58 +0100)
+
+> <task-notification> (9 November 2026, 17:07:58 +0100)
+> <task-id>b39jat0s1</task-id> (9 November 2026, 17:07:58 +0100)
+> <tool-use-id>toolu_01V6ZRhxWJwPjZTZDniJHT2E</tool-use-id> (9 November 2026, 17:07:58 +0100)
+> <output-file>/private/tmp/claude-501/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf/tasks/b39jat0s1.output</output-file> (9 November 2026, 17:07:58 +0100)
+> <status>completed</status> (9 November 2026, 17:07:58 +0100)
+> <summary>Background command "Deploy once more and wait for the production domain to switch" completed (exit code 0)</summary> (9 November 2026, 17:07:58 +0100)
+> </task-notification> (9 November 2026, 17:07:58 +0100)
+
+## 9 November 2026, 17:08:48 +0100 : Iteration
+
+<!-- feedback-event:d5902f7f230217e99e76c59dcd341efb6aec63378027825b09fd2e2e97d3e9ff (9 November 2026, 17:08:48 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 17:08:48 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 17:08:48 +0100)
+
+> **L'API cloud n'est pas nécessaire, et je ne l'ai pas construite.** n = 35 a été trouvé en local. Claude Code, Codex et Antigravity tournent sur ton Mac et lisent la base directement, et tes notes descendent du site toutes les minutes. Une API ne servirait qu'à une session cloud ou à ton téléphone, et elle demanderait de mettre ta mémoire privée chez Cloudflare. (9 November 2026, 17:08:48 +0100)
+>
+> **Comment ZenRay Past retrouve un souvenir.** Un agent l'a vérifié dans le code, fichier par fichier ; son rapport est dans [AUDIT-recall-et-past-dev-9-November-2026.md](/Users/zenray/.claude/tmp/tmp-zenray-past/AUDIT-recall-et-past-dev-9-November-2026.md). (9 November 2026, 17:08:48 +0100)
+>
+> 1. **Entrée.** Chaque source (journal, Memory1, règles et skills, commits, séances d'agents, notes du jour, documents) est découpée en morceaux datés au moment où la chose s'est produite. Les lignes qui ressemblent à un secret sont retirées. (9 November 2026, 17:08:48 +0100)
+> 2. **Souvenirs.** De chaque morceau sortent des phrases courtes (règle, valeur, observation, échéance), reliées à leur source. Une correction écrite marque l'ancienne version comme dépassée. (9 November 2026, 17:08:48 +0100)
+> 3. **Question.** Trois recherches tournent en parallèle : par les mots, par le sens (des vecteurs calculés sur ton Mac) et dans les textes bruts. Leurs classements sont fusionnés, puis le temps entre en jeu : (9 November 2026, 17:08:48 +0100)
+>    - le plus récent passe devant ; (9 November 2026, 17:08:48 +0100)
+>    - un jour nommé dans la question passe devant, la note de ce jour-là comptant triple ; (9 November 2026, 17:08:48 +0100)
+>    - une version dépassée recule. (9 November 2026, 17:08:48 +0100)
+>    La page rendue reste sous environ 6 000 à 8 000 tokens. (9 November 2026, 17:08:48 +0100)
+>
+> Analogie : c'est le registre des quêtes d'un sorceleur. Chaque contrat porte sa date, et quand une rumeur en remplace une autre, l'ancienne reste dans le registre, barrée et datée. (9 November 2026, 17:08:48 +0100)
+>
+> **Avais-je lu toute la documentation de past.dev ? Non.** J'avais lu les 31 pages de la partie « docs », et seulement elles. Le site, le glossaire, les guides et le blog (1,29 Mo) sont maintenant copiés dans l'atelier. Le glossaire précise que past.dev ne juge pas lui-même si une preuve suffit : c'est l'application qui en décide, comme dans ZenRay Past. J'ai mesuré un signal d'abstention (une meilleure preuve trouvée à la fois par les mots et par le sens). Il ne sépare pas les questions pièges des autres, donc je ne l'ai pas livré. (9 November 2026, 17:08:48 +0100)
+>
+> **« 100 % » n'existe pas, et je ne te le promettrai pas.** Ce qui est mesuré : (9 November 2026, 17:08:48 +0100)
+> - 13 questions connues sur 13 ; (9 November 2026, 17:08:48 +0100)
+> - 9 sur 10 sur les questions tenues à l'écart. La manquée a pourtant sa bonne réponse au 1er rang : il y manque seulement la phrase exacte que le banc attendait. (9 November 2026, 17:08:48 +0100)
+>
+> **Ce que j'ai ajouté pour finir proprement :** (9 November 2026, 17:08:48 +0100)
+> - les séances Antigravity et les `references/` des skills sont lues ; (9 November 2026, 17:08:48 +0100)
+> - Antigravity a ZenRay Past dans ses outils, et le verra à son prochain lancement ; (9 November 2026, 17:08:48 +0100)
+> - le service dit son état (à jour, en démarrage, figé, en échec, arrêté) dans le badge de l'onglet Past ; (9 November 2026, 17:08:48 +0100)
+> - il se relance seul quand son code change : vérifié, trois secondes après la modification d'un fichier ; (9 November 2026, 17:08:48 +0100)
+> - l'archive de ZenRay Knowledge, qui passait devant les vraies sources, est sortie de la base ; (9 November 2026, 17:08:48 +0100)
+> - le serveur past.dev, inutilisé, est retiré de ta configuration (une copie de sauvegarde est gardée). (9 November 2026, 17:08:48 +0100)
+>
+> **Le prompt Gemini de Zenray Knight.** La session séparée a trouvé une vraie erreur dans la version 2 : le client payant de début 2026 ne venait pas des 13 contacts du réseau. Elle a aussi trouvé des oublis, dont le départ au Japon, et l'ambiguïté sur la date des 2 500 €. La version 3 est la partie 11 de `ZenRayKnight1.md` ; j'ai vérifié qu'elle ajoute 103 lignes sans en supprimer aucune. (9 November 2026, 17:08:48 +0100)
+>
+> **Un point reste ouvert, chez Cloudflare.** Le dernier petit correctif du badge (« service en démarrage » juste après une relance) est publié et visible sur les adresses de déploiement. L'adresse principale reste pourtant sur la version d'avant, malgré trois publications. Seule conséquence : pendant les quelques minutes qui suivent une relance du service, le badge peut afficher « service arrêté ». (9 November 2026, 17:08:48 +0100)
+>
+> | Ce que tu voulais | Fait ? | Comment je le sais | (9 November 2026, 17:08:48 +0100)
+> |---|---|---| (9 November 2026, 17:08:48 +0100)
+> | Savoir si l'API cloud est utile, et ne pas la faire sinon | Oui, non construite | n = 35 trouvé en local, et ta note réenregistrée à 16:17:53 a été reprise 45 secondes plus tard | (9 November 2026, 17:08:48 +0100)
+> | Comprendre comment Past interroge ses souvenirs | Oui | Audit indépendant, avec les fichiers et les lignes du code pour chaque mécanisme | (9 November 2026, 17:08:48 +0100)
+> | Savoir si toute la doc de past.dev a été lue | Non avant, oui maintenant | 31 pages de « docs » lues ; site, glossaire, guides et blog copiés depuis | (9 November 2026, 17:08:48 +0100)
+> | Finir ZenRay Past | Oui | 42 tests verts ; relance automatique prouvée ; état visible ; synthèse vérifiée au vert puis au rouge ; sauvegarde Assets 33 fichiers sur 33 | (9 November 2026, 17:08:48 +0100)
+> | Un site sans régression | Oui, sauf le dernier correctif | La suite complète passe avant chaque publication, et une publication a été bloquée sur un échec. Le domaine sert la version précédente | (9 November 2026, 17:08:48 +0100)
+> | Savoir si le prompt Gemini avait des erreurs | Oui, corrigé | Une erreur et des oublis ; version 3 en partie 11, 103 lignes ajoutées, aucune supprimée | (9 November 2026, 17:08:48 +0100)
+>
+> Ta demande en plus court : « Si l'API cloud ne sert à rien, ne la fais pas ; finis ZenRay Past sans rien oublier ; fais expliquer par un agent comment il retrouve ses souvenirs et si toute la doc de past.dev a été lue ; fais vérifier le prompt Gemini dans une autre conversation. » (9 November 2026, 17:08:48 +0100)
