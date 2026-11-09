@@ -464,3 +464,11 @@
 - Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:01:27 +0100)
 
 > Je pose maintenant les deux fichiers d'appui : la spécification et le plan découpé en tâches, chacune avec sa preuve. Ce sont eux que la tâche récurrente relira à chaque passage. (9 November 2026, 13:01:27 +0100)
+
+## 9 November 2026, 13:04:02 +0100 : Iteration
+
+<!-- feedback-event:5a59ca1757123628c8a25928e55b9d1d78fc7cf6a2ad65f38a56ed9fc83b9c9b (9 November 2026, 13:04:02 +0100) -->
+- Project: zenray-past; kind: iteration. (9 November 2026, 13:04:02 +0100)
+- Source: /Users/zenray/.claude/projects/-Users-zenray--claude-Memory1/e8ea2178-33dd-484a-8fb4-198702093ebf.jsonl. (9 November 2026, 13:04:02 +0100)
+
+> Les tests virent bien au rouge quand on casse le budget ou la règle des révisions. J'ingère maintenant le vrai PROGRESS.md. (9 November 2026, 13:04:02 +0100)
